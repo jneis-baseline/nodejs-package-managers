@@ -4,44 +4,47 @@ further exploring npm
 ### npm cli cheatsheet
 
 * config listing
-> `npm config ls`
+  > `npm config ls`
 
 * project setup
-> `npm init`
+  > `npm init`
 
 * deps setup
-> `npm install` <dep> `--save`
+  > `npm install` <dep> `--save`
 
-> `npm install` <dep> `--save-dev`
+  > `npm install` <dep> `--save-dev`
 
-> `npm uninstall` <dep> `--save`
+  > `npm uninstall` <dep> `--save`
 
 * deps listing
-> `npm ls`
+  > `npm ls`
 
 * deps cleanup
-> `npm prune`
+  > `npm prune`
 
 * deps version mgmt
-> `npm outdated`
+  > `npm outdated`
 
-> `npm update`
+  > `npm update`
 
 ### semver cheatsheet
 
 * patch updates
+  > `1.0`
 
-> `1.0`
-> `1.0.x`
-> `~1.0.4`
+  > `1.0.x`
+  
+  > `~1.0.4`
 
 * minor release (new features)
+  > `1`
 
-> `1`
-> `1.x`
-> `^1.0.4`
+  > `1.x`
+  
+  > `^1.0.4`
 
 * major release (breaking changes)
 
-> `x`
-> `*`
+  > `x`
+  
+  > `*`
