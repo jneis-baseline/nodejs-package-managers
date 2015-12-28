@@ -13,6 +13,8 @@ further exploring npm
   > `npm install` <dep> `--save`
 
   > `npm install` <dep> `--save-dev`
+  
+  > `npm install <dep>@<version>`
 
   > `npm uninstall` <dep> `--save`
 
