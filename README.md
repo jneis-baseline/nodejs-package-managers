@@ -29,6 +29,20 @@ further exploring npm
 
   > `npm update`
 
+* script listing
+  > `npm run`
+
+* (custom) script running
+  > `npm [run]` <script>
+
+* default scripts
+  > `install`, `test`, `start`, `stop`, `restart`, `publish`
+
+  > `pre`, `post`
+
+* default script values
+  > `npm [run] start [server.js]`
+
 ### semver cheatsheet
 
 * patch updates
