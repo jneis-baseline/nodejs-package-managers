@@ -1,0 +1,4 @@
+# files to be ignored when publishing a npm package
+.gitignore
+.git
+npm-debug.log
