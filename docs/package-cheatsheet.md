@@ -18,10 +18,10 @@
 * [package scripts](cli-cheatsheet.md)
 
 * config params for package scripts
-  > `config` (<name>: <value>) 
+  > `config` (\<name>: \<value>) 
 
 * dependencies
-  > `dependencies` & `devDependencies` (<package>: [<version>](semver-cheatsheet.md))
+  > `dependencies` & `devDependencies` (\<package>: [\<version>](semver-cheatsheet.md))
 
   > `peerDependencies` (plugins to be installed with your package, but not required by code)
 
