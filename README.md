@@ -8,4 +8,4 @@ hacking node package managers, scaffolders and task runners
 
 ### [package.json cheatsheet](npm/package-cheatsheet.md)
 
-### [bower cheatsheet](/bower/readme.md)
+### [bower cheatsheet](bower/readme.md)
