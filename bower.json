@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "description": "sample app for hacking bower scripts",
+  "homepage": "https://github.com/jneis/bower-docs",
+  "authors": [
+    "jneis"
+  ],
+  "private": true,
+  "main": "main.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0",
+    "angular": "~1.4.9"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4"
+  }
+}

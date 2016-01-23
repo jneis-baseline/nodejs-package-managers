@@ -1,0 +1,9 @@
+{
+  "name": "backup",
+  "version": "1.0.0",
+  "description": "backup node project for hacking bower programmatic api",
+  "dependencies": {
+    "bower": "^1.7.2",
+    "inquirer": "^0.11.3"
+  }
+}
