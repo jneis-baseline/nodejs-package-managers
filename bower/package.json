@@ -5,5 +5,8 @@
   "dependencies": {
     "bower": "^1.7.2",
     "inquirer": "^0.11.3"
+  },
+  "scripts": {
+    "bowerinstall": "bower install --save"
   }
 }
