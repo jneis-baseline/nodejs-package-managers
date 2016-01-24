@@ -10,7 +10,7 @@ bower cheatsheet
 * initialize
   > `bower init`
 
-* list files to ignore when installing
+* list files to ignore when installing your package somewhere else
   > `bower.json`s `ignore`
 
 ### commands
