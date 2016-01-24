@@ -15,7 +15,30 @@ grunt cheatsheet
 * list available tasks
   > `grunt --help`
 
-### setup project
+### config
 
-* initialize
-  > ``
+* tasks vs targets
+  > `grunt <task>`
+
+  > `grunt <task>:<target>`
+
+* templates
+  > `<%= <prop.subprop> %>`
+
+  > `<%= grunt.template.today("yyyy-mm-dd") %>`
+
+* import
+  > `grunt.file.readYAML(filepath)`
+
+  > `grunt.file.readJSON(filepath)`
+
+* globbing patterns  
+  > `*` any number of chars but `/`
+
+  > `?` any single char but `/`
+
+  > `**` any number of chars, (including `/`)
+
+  > `{}` comma-separated list of 'or' expressions
+
+  > `!` negate the match
