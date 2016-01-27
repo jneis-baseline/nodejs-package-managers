@@ -29,7 +29,7 @@ module.exports = function(grunt) {
 
         jshint: {
             foo: {
-                src: ['foo/{a,b}*.js', 'foo/**/{a,b}*.js', '!foo/ab.js'] // globbing (filename expansion)
+                src: ['foo/{a,b}*.js', 'foo/**/{a,b}*.js', '!foo/ab.js'], // globbing (filename expansion)
                 // any .js file in foo dir starting with a or b
                 // any .js file in foo subdirs starting with a or b
                 // except file ab.js in foo dir
@@ -38,7 +38,7 @@ module.exports = function(grunt) {
                     return grunt.file.isDir(filepath);
                 }
             }
-        }
+        },
 
         uglify: {
             static_mappings: {
@@ -70,4 +70,12 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
         app: grunt.file.readYAML('app.yml')
     });
+
+    // plugin load (enable plugin installed via npm)
+    grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-jshint');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
+
+    // default task(s)
+    grunt.registerTask('default', ['concat']);
 };
