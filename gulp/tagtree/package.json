@@ -1,0 +1,11 @@
+{
+  "name": "tagtree-article",
+  "version": "1.0.0",
+  "description": "following gulp article published on http://tagtree.tv/gulp",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  },
+  "scripts": {
+    "gulp": "gulp"
+  }
+}
