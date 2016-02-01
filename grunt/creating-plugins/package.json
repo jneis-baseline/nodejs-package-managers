@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "creating grunt plugins - scaffolding new-plugin project",
   "devDependencies": {
-    "grunt": "^0.4.5"
+    "grunt": "^0.4.5",
+    "grunt-new-plugin": "file:new-plugin"
   },
   "scripts": {
     "install-init": "npm install -g grunt-init",
