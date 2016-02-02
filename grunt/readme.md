@@ -42,3 +42,8 @@ grunt cheatsheet
   > `{}` comma-separated list of 'or' expressions
 
   > `!` negate the match
+
+### task impl
+
+* accessing task attributes
+  > `this.name`, `this.target`, `this.data`
