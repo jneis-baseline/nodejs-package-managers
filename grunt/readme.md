@@ -1,7 +1,7 @@
 # grunt-docs
 grunt cheatsheet
 
-### install
+### setup
 
 * cli
   > `npm install -g grunt-cli`
@@ -14,6 +14,9 @@ grunt cheatsheet
 
 * list available tasks
   > `grunt --help`
+
+* specify alternative Gruntfile
+  > `grunt --gruntfile <path> <command>`
 
 ### config
 

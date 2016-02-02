@@ -11,3 +11,5 @@ hacking node package managers, scaffolders and task runners
 ### [bower cheatsheet](bower/readme.md)
 
 ### [grunt cheatsheet](grunt/readme.md)
+
+### [gulp cheatsheet](gulp/readme.md)
