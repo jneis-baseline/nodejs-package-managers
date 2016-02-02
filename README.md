@@ -12,4 +12,4 @@ hacking node package managers, scaffolders and task runners
 
 ### [grunt cheatsheet](grunt/readme.md)
 
-### [gulp cheatsheet](gulp/readme.md)
+### [gulp cheatsheet](https://github.com/osscafe/gulp-cheatsheet)
