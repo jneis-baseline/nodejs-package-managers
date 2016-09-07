@@ -1,4 +1,4 @@
-# node-managers
+# hack-node-managers
 
 hacking node package managers, scaffolders and task runners
 
